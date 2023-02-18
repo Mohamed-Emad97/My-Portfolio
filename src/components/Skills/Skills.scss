@@ -1,0 +1,24 @@
+//Import Files 
+@use "../../helpers/Mixin.scss" as *;
+
+@use "../../helpers/Variblies.scss" as *;
+
+//Rules
+#skills{
+    .skillIcon{
+        filter: grayscale(1);
+        cursor: pointer;
+        transition: all 1s;
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+    .movIcon{
+        cursor: pointer;
+        font-size: 50px;
+        transition: all 1s;
+        &:hover{
+            color: $mov-color;
+        }
+    }
+}

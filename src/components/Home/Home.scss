@@ -1,0 +1,12 @@
+//Import Files 
+@use "../../helpers/Mixin.scss" as *;
+
+@use "../../helpers/Variblies.scss" as *;
+
+//Rules
+#home{
+    .btnMain{
+        text-decoration: none;
+        @include mainBtn($black-color, transparent, $main-color, $black-color);
+    }
+}

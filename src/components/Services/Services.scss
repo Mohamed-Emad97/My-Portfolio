@@ -1,0 +1,32 @@
+//Import Files
+@use "../../helpers/Mixin.scss" as *;
+
+@use "../../helpers/Variblies.scss" as *;
+
+//Rules
+#services {
+    background-color: $main-color;
+    .srvBox{
+        box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.27);
+        -webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.27);
+        .blue{
+            color: $blue-color;
+        }
+        .yellow{
+            color: $yellow-color;
+        }
+        .red{
+            color: $red-color;
+        }
+    }
+    .brdrBlue{
+        border-bottom:  3px solid $blue-color;
+    }
+    .brdrRed{
+        border-bottom:  3px solid $red-color;
+    }
+    .brdrYellow{
+        border-bottom:  3px solid $yellow-color;
+    }
+}

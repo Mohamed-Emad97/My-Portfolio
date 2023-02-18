@@ -1,0 +1,14 @@
+//Import Files 
+@use "../../helpers/Variblies.scss" as *;
+
+@use "../../helpers/Mixin.scss" as *;
+
+//Rules 
+
+header {
+    background-color: rgba(0,0,0,0.4);
+    .logoImg{
+        width: 50px;
+        margin-right: 15px;
+    }
+}

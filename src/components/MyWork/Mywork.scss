@@ -1,0 +1,51 @@
+//Import Files
+@use "../../helpers/Mixin.scss" as *;
+
+@use "../../helpers/Variblies.scss" as *;
+
+//Rules
+#myWork{
+    .projectBox{
+        transition: all 1s;
+        cursor: pointer;
+        .overlay{
+            @include overlay(0,rgba(0,0,0,0.4));
+            transform: scale(0);
+            transition: all 1s;
+        }
+        &:hover .overlay{
+            transform: scale(1);
+        }
+    }
+}
+
+.pop-up{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 100000;
+    .projectDetails{
+        background-color: $main-color;
+        position: relative;
+        #close{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+            transition: all 1s;
+            &:hover{
+                color: $black-color !important;
+            }
+        }
+        .projInfo{
+            .btnMain{
+                @include mainBtn($black-color, transparent, $main-color, $black-color);
+                text-decoration: none;
+            }
+        }
+    }
+}

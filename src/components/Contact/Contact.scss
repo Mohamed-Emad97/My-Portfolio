@@ -1,0 +1,9 @@
+//Import Files
+@use "../../helpers/Variblies.scss" as *;
+
+//Rules
+#contact{
+    h2, h3{
+        color: $black-color;
+    }
+}
