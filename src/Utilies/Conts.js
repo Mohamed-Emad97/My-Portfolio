@@ -2,29 +2,27 @@ import {HTML , CSS , GIT, SASS, JS, React, API} from "./Imgs";
 import {bakery, simone, piggy, restaurant, weather, bakeryLanding, simoneLanding, piggyLanding, restaurantLanding, moviesLanding, Movies, Notes, News} from "./Imgs";
 
 export const summary = [
-    `I am Mohamed Emad, a Front End Web developer and a react developer from Egypt since high school. 
-    I have an interest in the field of programming, 
-    and for that I have looking for achieving this dream through learning and perseverance 
-    to achieve my ambition and through my learning path.
+    `I'm Mohamed Emad, a Front End Web Developer and React Developer from Egypt since high school. 
+    I am interested in the field of programming, 
+    and I hope to reach this goal via study and determination.
     `,
     `
-    I have a passion and interest in the web development field, 
-    dealing with various projects, meeting positive people, 
-    and working within a different and rich work environment.
+    also have passion and interest in the web development area, 
+    dealing with varied projects, meeting good individuals, 
+    and working within a distinct and rich work environment.
     `,
     `
-    I always aiming to design high quality designs with different ranges, so
+    I constantly strive to develop high-quality designs in a variety of levels, thus.
     `,
     `
-    I Specialized in UI development and Front End Web Development
+    Specialized in UI development and Front End Web Development
     Have an experience in web designing and development
     building high quality & responsive websites using
     HTML5, CSS3, SCSS, Bootstrap, JavaScript and React JS.
     `,
     `
-    And I would like to thank my beloved family for what they have given me 
-    and everything I have been able to achieve is due to my family, 
-    especially my beloved mother
+    I'd want to thank my loving family for all they've given me, 
+    and everything I've accomplished is because of my family, especially my beloved mother.
     `
 
 ];
@@ -55,7 +53,7 @@ export const projects = [
     {
         title: `Trending Movies`,
         desc: `Bulid using : React.js - Bootstrap - Axois (API) -  Jwt-decode - JOI - API From https://www.themoviedb.org/ - SAP`,
-        liveDemo: `https://mohamedemad97.github.io/Trending-Movies/#/login`,
+        liveDemo: `https://mohamed-emad97.github.io/Trending-Movies/#/register`,
         gitRepo: `https://github.com/Mohamed-Emad97/Trending-Movies`,
         img: Movies,
         myWork: moviesLanding, 
